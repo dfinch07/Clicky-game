@@ -2,10 +2,12 @@
   "name": "Clicky-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dfinch07.github.io/Clicky-game/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
   "scripts": {
@@ -15,6 +17,11 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  },
+
   "eslintConfig": {
     "extends": "react-app"
   },

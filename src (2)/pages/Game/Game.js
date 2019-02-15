@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Item from './components/Item';
-import Footer from './components/Footer';
-import characters from "./characters.json";
-import './App.css';
+import {Navbar} from '../../components/Navbar';
+import {Header} from '../../components/Header';
+import {Item} from '../../components/Item';
+import {Footer} from '../../components/Footer';
+import {characters} from "../../characters.json";
 
-class App extends Component {
+class Game extends Component {
   // Setting the initial state of the App component
   constructor(){
     super()
@@ -120,7 +119,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Game">
         <Navbar
           score={this.state.score}
           topscore={this.state.topScore}
@@ -137,4 +136,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Game;
